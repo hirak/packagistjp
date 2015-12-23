@@ -1,0 +1,6 @@
+MAILTO='hiraku@tojiru.net'
+
+PJP=/var/www/vhost/packagist.jp
+*/2 * * * *  /usr/bin/php70 /opt/packagist-crawler/parallel.php
+18 5 * * *  /usr/bin/wget -O $PJP/composer.phar https://getcomposer.org/composer.phar
+18 5 * * *  /usr/bin/wget -O $PJP/phpunit.phar https://phar.phpunit.de/phpunit.phar
