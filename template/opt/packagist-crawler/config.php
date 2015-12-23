@@ -13,5 +13,5 @@ return (object)array(
     'maxConnections' => 2,
     'generateGz' => true,
     'expireMinutes' => 60,
-    'url' => 'http://localhost',
+    'url' => 'http://packagist.jp',
 );
