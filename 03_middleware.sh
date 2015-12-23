@@ -29,4 +29,4 @@ yum -y install \
     php70-php-pdo \
     php70-php-pecl-zip
 
-
+cp {template,}/etc/php.d/timezone.ini
