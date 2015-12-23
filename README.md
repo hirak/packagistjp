@@ -1,0 +1,2 @@
+packagist.jp conf files
+=====================
